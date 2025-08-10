@@ -24,16 +24,19 @@ Reverse the postfix result → prefix expression
 📂 Project Structure
 
 📦 infix-to-prefix
- ┣ 📜 Main.kt          # Entry point
- ┣ 📜 .kt     # Logic for conversion
+ ┣ 📜 Main.kt                    # Entry point
+ ┣ 📜 intixToPostfix.kt    #Coverts reverse infix to postfix
+ ┣ 📜 revOfInfix.kt         #Reverse the infix 
+ ┣ 📜 Evaluation.kt     # Logic for evaluation 
  ┣ 📜 README.md        # Project documentation
 
 🖥️ Example Run
 Input:
-Enter infix expression: (A+B)*C
+Enter infix expression: (5+7)*3
 
 Output:
-Prefix: *+ABC
+Prefix: *+573
+Final Answer (Value): 36.0
 
 🛠️ Installation & Usage
 Clone this repository:
